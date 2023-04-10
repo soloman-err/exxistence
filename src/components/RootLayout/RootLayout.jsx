@@ -5,7 +5,7 @@ import Navbar from '../Navbar/Navbar';
 
 const RootLayout = () => {
     return (
-        <div className='font-poppins w-[70%] mx-auto h-screen'>
+        <div className='font-poppins w-[80%] mx-auto h-screen'>
             <Navbar></Navbar>
             <div className='min-h-[calc(100vh-100px)]'>
                 <Outlet></Outlet>

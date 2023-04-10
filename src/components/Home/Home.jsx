@@ -1,11 +1,12 @@
 import React from 'react';
+import Category from '../Category/Category';
 import Header from '../Header/Header';
 
 const Home = () => {
     return (
         <div className='py-5'>
             <Header></Header>
-            {/* <h1>Home</h1> */}
+            <Category></Category>
         </div>
     );
 };

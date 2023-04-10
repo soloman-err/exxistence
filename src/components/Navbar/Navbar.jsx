@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className='flex flex-row-reverse md:flex-row justify-between lg:text-lg uppercase py-5 items-center border-b pb-3'>
             <h1 className='text-2xl font-extrabold'>Exxistence</h1>
 
-            <ul className={`absolute flex flex-col md:flex-row ${open ? 'top-16 left-[15%] bg-white border-t pb-[100%] space-y-3 pr-10' : 'top-16 -left-36'} duration-300 md:static md:space-x-3 text-sm`}>
+            <ul className={`absolute flex flex-col md:flex-row ${open ? 'top-16 left-[10%] bg-white border-t pb-[100%] space-y-3 pr-10' : 'top-16 -left-36'} duration-300 md:static md:space-x-3 text-sm font-extrabold`}>
                 <Link to='/'>Home</Link>
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/applied-jobs'>Applied Jobs</Link>
