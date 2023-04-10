@@ -2,8 +2,9 @@ import React from 'react';
 
 const AppliedJobs = () => {
     return (
-        <div>
-            <h1>Applied jobs</h1>
+        <div className='py-10'>
+            <h1 className='text-center text-xl lg:text-2xl uppercase underline'>Your Applied Jobs</h1>
+
         </div>
     );
 };

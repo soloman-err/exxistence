@@ -10,6 +10,6 @@ export default {
       'poppins': ['poppins']
     }
   },
-  plugins: [],
+ plugins: [require("daisyui")],
 }
 
