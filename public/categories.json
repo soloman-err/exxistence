@@ -1,31 +1,31 @@
 [
     {
       "id": "1",
-      "img": "https://example.com/img/marketing.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/17/17136.png?w=740&t=st=1681135136~exp=1681135736~hmac=8b10431356abc32448d81011176a51fe3ebd79dc858c77846705d3ce3d1bae82",
       "title": "Marketing",
       "available_jobs": 1000
     },
     {
       "id": "2",
-      "img": "https://example.com/img/engineering.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/50/50799.png?w=826&t=st=1681135124~exp=1681135724~hmac=d6f8050d2bb99ff1d0baec5431a61a16262ef102ad87f0364c907a36875a5422",
       "title": "Engineering",
       "available_jobs": 500
     },
     {
       "id": "3",
-      "img": "https://example.com/img/design.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/50/50313.png?w=740&t=st=1681135373~exp=1681135973~hmac=2e0e356ca653dfaf0a07cc5161ba4f8a83d013abf901d6017ec2e46e7f7a8da2",
       "title": "Design",
       "available_jobs": 750
     },
     {
       "id": "4",
-      "img": "https://example.com/img/customer-service.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/61/61151.png?w=740&t=st=1681135474~exp=1681136074~hmac=c0869c56e8a77a31af0c01e2b499bf4ca730a22327524d4c1272619240730d43",
       "title": "Customer Service",
       "available_jobs": 250
     },
     {
       "id": "5",
-      "img": "https://example.com/img/sales.jpg",
+      "img": "https://cdn-icons-png.flaticon.com/512/12/12761.png?w=740&t=st=1681135402~exp=1681136002~hmac=8e1333999fe37e1339a130b04ce18772aeae8e3ef95598baf607bda316b43bbc",
       "title": "Sales",
       "available_jobs": 800
     }
