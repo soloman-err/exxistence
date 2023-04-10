@@ -5,11 +5,11 @@ import Header from '../Header/Header';
 
 const RootLayout = () => {
     return (
-        <>
+        <div className='font-poppins w-[70%] mx-auto'>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
-        </>
+        </div>
     );
 };
 
