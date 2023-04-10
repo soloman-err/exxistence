@@ -15,7 +15,7 @@ const Category = () => {
                 <h1 className='font-extrabold text-xl'>Job Categories</h1>
                 <small className='text-xs text-slate-700'>Explore bunch of job opportunities with all the information you need.</small>
             </div>
-            <div className='space-y-2 gap-3 w-[60%] mx-auto md:space-y-0 md:flex md:justify-around'>
+            <div className='space-y-2 gap-3 w-[80%] md:w-[70%] mx-auto md:space-y-0 md:flex md:justify-around'>
                 {
                     categories.map((category) =>
                         <div

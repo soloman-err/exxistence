@@ -16,7 +16,7 @@ const Header = () => {
                     loop
                     src="https://assets2.lottiefiles.com/packages/lf20_czj9tlje.json"
 
-                    className='w-[50%]'
+                    className='w-[70%]'
                 >
                 </Player>
             </section>

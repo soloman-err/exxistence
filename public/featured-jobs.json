@@ -1,0 +1,102 @@
+[
+    {
+      "id": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6SttCc_-5YWCMd9XHxkoz6GbDUHH7j0sw0_DfNMxZIFvbxjalejuxgNlo1hnj8HZmA&usqp=CAU",
+      "title": "UX Designer",
+      "subtitle": "Forbes",
+      "type": "onsite",
+      "time": "Full Time",
+      "location": "San Francisco, CA",
+      "salary": "$100,000 - $120,000 per year"
+    },
+    {
+      "id": 2,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/SpaceX_Logo_Black.png",
+      "title": "Software Engineer",
+      "subtitle": "spaceX",
+      "type": "remote",
+      "time": "Full Time",
+      "location": "Mountain View, CA",
+      "salary": "$120,000 - $150,000 per year"
+    },
+    {
+      "id": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-hN4sukF9tPBWmXne8nMu3hTaLH6whrmRRwgDq6uxCF_l7tyxWVcveD8f0iaTeLfIHw&usqp=CAU",
+      "title": "Technical Writer",
+      "subtitle": "NY-Times",
+      "type": "remote",
+      "time": "Full Time",
+      "location": "Cupertino, CA",
+      "salary": "$110,000 - $130,000 per year"
+    },
+    {
+      "id": 4,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8jxJ26C9PX9xoMUQe-z5MC2FlHR1173OWDPRwhcCis64PPn_84w89_ywl1s38pFCAEg&usqp=CAU",
+      "title": "Customer Service Representative",
+      "subtitle": "Starbucks",
+      "type": "remote",
+      "time": "Full Time",
+      "location": "Seattle, WA",
+      "salary": "$45,000 - $50,000 per year"
+    },
+    {
+      "id": 5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzLdNVCJ9G2C2mN8vkOCc7KhN5-W6kyCr5CO_mW2QCLfO1loUpCaQ_sgC08__YoV2Uko&usqp=CAU",
+      "title": "Data Analyst",
+      "subtitle": "MotoGP",
+      "type": "onsite",
+      "time": "Full Time",
+      "location": "Redmond, WA",
+      "salary": "$80,000 - $100,000 per year"
+    },
+    {
+      "id": 6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMqyqZsxPzxzYNCsEaFHYTZowS3awE3f_woBoYziTaOPNTa1yl-OeFoIUMzyn93DlnnA&usqp=CAU",
+      "title": "Full Stack Developer",
+      "subtitle": "Facebook",
+      "type": "onsite",
+      "time": "Full Time",
+      "location": "Menlo Park, CA",
+      "salary": "$150,000 - $180,000 per year"
+    },
+    {
+      "id": 7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNO2mOHoKapKMEOhql3B_CSdFL9JuuHRzyDlFbT7fK3K7nJlyvNlptEIjqXi-OF6odiSQ&usqp=CAU",
+      "title": "Backend Developer",
+      "subtitle": "cyberpunk2077",
+      "type": "onsite",
+      "time": "Part Time",
+      "location": "San Francisco, CA",
+      "salary": "$120,000 - $140,000 per year"
+    },
+    {
+      "id": 8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6SNOii8VQnkwi5QcbDDAMOwnlOsaNGBaOGJONr7BeN5DBaWjUlUreK737JTZBDsVkQ0E&usqp=CAU",
+      "title": "Animator",
+      "subtitle": "Walt Disney",
+      "type": "remote",
+      "time": "Full Time",
+      "location": "Santa Clara, CA",
+      "salary": "$80,000 - $100,000 per year"
+    },
+    {
+      "id": 9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPPLgWae4XHd_efjlC0VpPJ9wf3QescTRusDAbRf12mrfSnM7UcRIpUm4HbPFSfiz5vFw&usqp=CAU",
+      "title": "Network Engineer",
+      "subtitle": "IBM",
+      "type": "remote",
+      "time": "Project",
+      "location": "San Jose, CA",
+      "salary": "$110,000 - $130,000 per year"
+    },
+    {
+      "id": 10,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlXkdR9X-RlQcVRnEbbr5HeA4x4Avu3dLDqA1Fipjllc0WiA6L9BBzdWTI14nyCJlPAfE&usqp=CAU",
+      "title": "Marketing Coordinator",
+      "subtitle": "Nestle",
+      "type": "remote",
+      "time": "Full Time",
+      "location": "Sunnyvale, CA",
+      "salary": "$60,000 - $70,000 per year"
+    }
+]
