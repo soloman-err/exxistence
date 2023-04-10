@@ -1,6 +1,6 @@
 import { Player } from '@lottiefiles/react-lottie-player';
 import React from 'react';
-import ApplyBtn from '../ApplyBtn/ApplyBtn';
+import Button from '../Button/Button';
 
 const Header = () => {
     return (
@@ -9,7 +9,7 @@ const Header = () => {
                 <div className='space-y-2'>
                     <h1 className='font-extrabold text-5xl'>Exxist or Exhaust</h1>
                     <p className='text-slate-700 text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eveniet exercitationem nam inventore ullam voluptatibus unde alias quisquam molestiae repellendus!</p>
-                    <ApplyBtn></ApplyBtn>
+                    <Button></Button>
                 </div>
                 <Player
                     autoplay

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ApplyBtn = () => {
+const Button = () => {
     return (
         <div>
             <button className='border-2 border-black px-2 py-1 font-extrabold hover:bg-black hover:text-white duration-200'>Apply Now</button>
@@ -8,4 +8,4 @@ const ApplyBtn = () => {
     );
 };
 
-export default ApplyBtn;
+export default Button;

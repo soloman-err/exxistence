@@ -1,5 +1,6 @@
 import React from 'react';
 import Category from '../Category/Category';
+import Featured from '../Featured/Featured';
 import Header from '../Header/Header';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div className='py-5'>
             <Header></Header>
             <Category></Category>
+            <Featured></Featured>
         </div>
     );
 };

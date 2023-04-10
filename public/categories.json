@@ -1,0 +1,32 @@
+[
+    {
+      "id": "1",
+      "img": "https://example.com/img/marketing.jpg",
+      "title": "Marketing",
+      "available_jobs": 1000
+    },
+    {
+      "id": "2",
+      "img": "https://example.com/img/engineering.jpg",
+      "title": "Engineering",
+      "available_jobs": 500
+    },
+    {
+      "id": "3",
+      "img": "https://example.com/img/design.jpg",
+      "title": "Design",
+      "available_jobs": 750
+    },
+    {
+      "id": "4",
+      "img": "https://example.com/img/customer-service.jpg",
+      "title": "Customer Service",
+      "available_jobs": 250
+    },
+    {
+      "id": "5",
+      "img": "https://example.com/img/sales.jpg",
+      "title": "Sales",
+      "available_jobs": 800
+    }
+]
