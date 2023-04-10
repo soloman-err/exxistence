@@ -1,5 +1,3 @@
-import { faMicrochip } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 
 const Category = () => {
@@ -11,16 +9,16 @@ const Category = () => {
     })
     return (
         <div className='text-center py-5 space-y-3'>
-            <div>
-                <h1 className='font-extrabold text-xl'>Job Categories</h1>
-                <small className='text-xs text-slate-700'>Explore bunch of job opportunities with all the information you need.</small>
+            <div className='border-b inline'>
+                <h1 className='font-extrabold text-xl lg:text-2xl'>Job Categories</h1>
+                <small className='text-xs text-slate-600'>Explore bunch of job opportunities with all the information you need.</small>
             </div>
-            <div className='space-y-2 gap-3 w-[80%] md:w-[70%] mx-auto md:space-y-0 md:flex md:justify-around'>
+            <div className='space-y-2 gap-3 w-[90%] md:w-[70%] mx-auto md:space-y-0 md:flex md:justify-around'>
                 {
                     categories.map((category) =>
                         <div
                             key={category.id}
-                            className='border p-2 bg-slate-50'
+                            className='border p-5 bg-slate-50 shadow-sm'
                         >
                             <img src="" alt="" />
                             <h1>{category.title}</h1>

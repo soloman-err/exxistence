@@ -13,16 +13,16 @@ const Featured = () => {
     })
     return (
         <div className='text-center space-y-3 py-5'>
-            <div>
-                <h1 className='font-extrabold text-xl'>Featured Jobs</h1>
-                <small className='text-xs text-slate-700'>International Tech-Giant companies at a glance</small>
+            <div className='border-b inline'>
+                <h1 className='font-extrabold text-xl lg:text-2xl'>Featured Jobs</h1>
+                <small className='text-xs text-slate-600'>International Tech-Giant companies at a glance</small>
             </div>
-            <div className='grid md:grid-cols-2 gap-5 w-[80%] md:w-[60%] mx-auto'>
+            <div className='grid md:grid-cols-2 gap-5 w-[90%] md:w-[70%] mx-auto'>
                 {
                     featuredjobs.map((featuredjob) =>
                         <div
                             key={featuredjob.id}
-                            className='border bg-slate-50 text-left flex flex-col justify-between space-y-5 p-5'
+                            className='border bg-slate-50 text-left flex flex-col justify-between space-y-5 p-5 shadow-md'
                         >
                             <div className='space-y-3'>
                                 <img className='lg:w-[50%] h-[40px] lg:h-[50px] opacity-80' src={featuredjob.image} alt="" />
