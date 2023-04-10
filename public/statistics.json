@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Newyear-Newmission",
+      "marks": 60
+    },
+    {
+      "id": 2,
+      "name": "G3-Architects",
+      "marks": 60
+    },
+    {
+      "id": 3,
+      "name": "Legal-Solutions",
+      "marks": 50
+    },
+    {
+      "id": 4,
+      "name": "BasicJS",
+      "marks": 51
+    },
+    {
+      "id": 5,
+      "name": "Geometry-Genius",
+      "marks": 38
+    },
+    {
+      "id": 6,
+      "name": "AI-Universe",
+      "marks": 53
+    },
+    {
+      "id": 7,
+      "name": "Devtool & Debug",
+      "marks": 60
+    },
+    {
+      "id": 8,
+      "name": "ReactSPA solocafe",
+      "marks": 60
+    }
+  ]

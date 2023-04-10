@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='py-10 text-white bg-slate-950'>
             <div className='flex flex-col md:flex-row w-[80%] mx-auto justify-between'>
-                <div className='py-5'>
+                <div className='py-5 space-y-1'>
                     <h1>Exxistence</h1>
                     <p className='text-xs text-slate-300'>Exxistence Inc. serves you the top notch opportunities.</p>
                     <div className='space-x-2 text-xl text-slate-200'>
