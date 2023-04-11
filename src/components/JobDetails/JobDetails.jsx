@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Button from '../Button/Button';
+// import { DetailContext } from '../RootLayout/RootLayout';
 
 const JobDetails = () => {
+    // const handleDetail = useContext(DetailContext);
+    // console.log(handleDetail)
+
 
     return (
         <div className='md:flex justify-between space-y-5 md:space-y-0 md:w-[80%] mx-auto bg-slate-200 p-5 mt-[10%]'>

@@ -4,6 +4,7 @@ import Featured from '../Featured/Featured';
 import Header from '../Header/Header';
 
 const Home = () => {
+
     return (
         <div className='py-5'>
             <Header></Header>

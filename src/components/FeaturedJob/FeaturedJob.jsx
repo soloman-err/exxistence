@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { faMapLocation, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
+import { HandleDetailContext } from '../RootLayout/RootLayout';
 
 const FeaturedJob = ({ featuredjob }) => {
     const { id, image, location, salary, subtitle, time, title, type } = featuredjob;
+
+    const handleDetail = useContext(HandleDetailContext);
 
     return (
         <div
@@ -13,7 +16,7 @@ const FeaturedJob = ({ featuredjob }) => {
             className='border bg-slate-50 text-left flex flex-col justify-between space-y-5 p-5 shadow-md'
         >
             <div className='space-y-3'>
-                <img className='lg:w-[50%] h-[40px] lg:h-[50px] opacity-80' src={image} alt="" />
+                <img className='lg:w-[50%] h-[40px] lg:h-[50px]' src={image} alt="company-logo" />
                 <div>
                     <h1 className='text-lg font-bold'>{title}</h1>
                     <small className='text-xs text-slate-500'>{subtitle}</small>
@@ -34,7 +37,7 @@ const FeaturedJob = ({ featuredjob }) => {
                 </div>
             </div>
             <div>
-                <Link to='/job-details'><Button>View Details</Button></Link>
+                <Link to='/job-details'><Button onClick={() => handleDetail(featuredjob)}>View Details</Button></Link>
             </div>
         </div >
     );

@@ -17,7 +17,10 @@ const Navbar = () => {
                 <Link to='/blog'>Blog</Link>
             </ul>
             <div className='hidden md:block'>
-                <Button>ApplyUP</Button>
+                <div className='flex gap-2'>
+                    <button className='border-2 border-black px-2 font-extrabold hover:text-white hover:bg-black bg-slate-50'>Log In</button>
+                    <Button>Sign Up</Button>
+                </div>
             </div>
 
             <div className='font-bold text-xl md:hidden' onClick={() => setOpen(!open)}>
