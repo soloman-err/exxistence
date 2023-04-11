@@ -9,7 +9,7 @@ const Header = () => {
                 <div className='space-y-3'>
                     <h1 className='font-extrabold text-5xl lg:text-8xl'>Exxist or Exhaust</h1>
                     <p className='text-slate-700 text-sm'>Seeker! you've step up into sphere of careeropedia. The most popular hunting gateway.</p>
-                    <Button></Button>
+                    <Button>Apply Now</Button>
                 </div>
                 <Player
                     autoplay

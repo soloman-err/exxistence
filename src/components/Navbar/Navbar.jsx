@@ -2,6 +2,7 @@ import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Button from '../Button/Button';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -15,7 +16,9 @@ const Navbar = () => {
                 <Link to='/applied-jobs'>Applied Jobs</Link>
                 <Link to='/blog'>Blog</Link>
             </ul>
-            <button className='hidden md:block border-2 border-black px-2 py-1 text-sm font-extrabold'>ApplyUP</button>
+            <div className='hidden md:block'>
+                <Button>ApplyUP</Button>
+            </div>
 
             <div className='font-bold text-xl md:hidden' onClick={() => setOpen(!open)}>
                 <span>
