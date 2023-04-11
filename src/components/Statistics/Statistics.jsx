@@ -7,7 +7,7 @@ const Statistics = () => {
     return (
         <div className='text-center py-10'>
             <h1 className='text-xl lg:text-2xl font-extrabold underline'>Statistics of Assignment Marks of Solo</h1>
-            <RadarChart className='mx-auto mt-[10%]' cx="50%" cy="50%" outerRadius="60%" width={700} height={500} data={assignmentMarks}>
+            <RadarChart className='mx-auto mt-[20%] md:mt-[5%]' cx="50%" cy="50%" outerRadius="60%" width={700} height={500} data={assignmentMarks}>
                 <PolarGrid />
                 <Tooltip></Tooltip>
                 <PolarAngleAxis dataKey="name" />

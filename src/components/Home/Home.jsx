@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 const Home = () => {
 
     return (
-        <div className='py-5'>
+        <div className='pb-5'>
             <Header></Header>
             <Category></Category>
             <Featured></Featured>
