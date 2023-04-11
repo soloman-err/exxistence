@@ -12,7 +12,7 @@ const Statistics = () => {
                 <Tooltip></Tooltip>
                 <PolarAngleAxis dataKey="name" />
                 <PolarRadiusAxis />
-                <Radar name="names" dataKey="marks" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+                <Radar name="score" dataKey="marks" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
             </RadarChart>
         </div >
     );

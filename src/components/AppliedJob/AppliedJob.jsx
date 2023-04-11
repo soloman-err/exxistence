@@ -8,9 +8,6 @@ import { HandleDetailContext } from '../RootLayout/RootLayout';
 const AppliedJob = ({ job }) => {
     const { id, image, location, salary, subtitle, time, title, type } = job;
 
-    // const handleDelete = (id) => {
-    //     console.log(id)
-    // }
     const { handleDelete } = useContext(HandleDetailContext)
 
     return (
@@ -19,14 +16,14 @@ const AppliedJob = ({ job }) => {
                 <img className='w-20 h-6 md:w-24 md:h-8' src={image} alt="" />
                 <div className='space-y-1'>
                     <h1 className='font-extrabold'>{title}</h1>
-                    <small>{subtitle}</small>
+                    <small className='text-slate-700'>{subtitle}</small>
                     <div className='flex gap-3 text-sm'>
                         <button className='border border-black px-1 text-sm bg-slate-200'>{type}</button>
                         <button className='border border-black px-1 text-sm bg-slate-200'>{time}</button>
                     </div>
-                    <div className='flex flex-col text-xs'>
-                        <span>Address: {location}</span>
-                        <span>Salary: {salary}</span>
+                    <div className='flex flex-col text-xs text-slate-700'>
+                        <span><span className='font-extrabold'>Address:</span> {location}</span>
+                        <span><span className='font-extrabold'>Salary:</span> {salary}</span>
                     </div>
                 </div>
             </div>

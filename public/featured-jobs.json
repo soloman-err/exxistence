@@ -4,10 +4,10 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6SttCc_-5YWCMd9XHxkoz6GbDUHH7j0sw0_DfNMxZIFvbxjalejuxgNlo1hnj8HZmA&usqp=CAU",
       "title": "UX Designer",
       "subtitle": "Forbes",
-      "type": "onsite",
+      "type": "Onsite",
       "time": "Full Time",
       "location": "San Francisco, CA",
-      "salary": "$100,000 - $120,000 per year"
+      "salary": "$100,000 - $120,000 /year"
       
     },
     {
@@ -18,7 +18,7 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Mountain View, CA",
-      "salary": "$120,000 - $150,000 per year"
+      "salary": "$120,000 - $150,000 /year"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Cupertino, CA",
-      "salary": "$110,000 - $130,000 per year"
+      "salary": "$110,000 - $130,000 /year"
     },
     {
       "id": 4,
@@ -38,37 +38,37 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Seattle, WA",
-      "salary": "$45,000 - $50,000 per year"
+      "salary": "$45,000 - $50,000 /year"
     },
     {
       "id": 5,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzLdNVCJ9G2C2mN8vkOCc7KhN5-W6kyCr5CO_mW2QCLfO1loUpCaQ_sgC08__YoV2Uko&usqp=CAU",
       "title": "Data Analyst",
       "subtitle": "MotoGP",
-      "type": "onsite",
+      "type": "Onsite",
       "time": "Full Time",
       "location": "Redmond, WA",
-      "salary": "$80,000 - $100,000 per year"
+      "salary": "$80,000 - $100,000 /year"
     },
     {
       "id": 6,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMqyqZsxPzxzYNCsEaFHYTZowS3awE3f_woBoYziTaOPNTa1yl-OeFoIUMzyn93DlnnA&usqp=CAU",
       "title": "Full Stack Developer",
       "subtitle": "Facebook",
-      "type": "onsite",
+      "type": "Onsite",
       "time": "Full Time",
       "location": "Menlo Park, CA",
-      "salary": "$150,000 - $180,000 per year"
+      "salary": "$150,000 - $180,000 /year"
     },
     {
       "id": 7,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNO2mOHoKapKMEOhql3B_CSdFL9JuuHRzyDlFbT7fK3K7nJlyvNlptEIjqXi-OF6odiSQ&usqp=CAU",
       "title": "Backend Developer",
       "subtitle": "cyberpunk2077",
-      "type": "onsite",
+      "type": "Onsite",
       "time": "Part Time",
       "location": "San Francisco, CA",
-      "salary": "$120,000 - $140,000 per year"
+      "salary": "$120,000 - $140,000 /year"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Santa Clara, CA",
-      "salary": "$80,000 - $100,000 per year"
+      "salary": "$80,000 - $100,000 /year"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "type": "remote",
       "time": "Project",
       "location": "San Jose, CA",
-      "salary": "$110,000 - $130,000 per year"
+      "salary": "$110,000 - $130,000 /year"
     },
     {
       "id": 10,
@@ -98,6 +98,6 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Sunnyvale, CA",
-      "salary": "$60,000 - $70,000 per year"
+      "salary": "$60,000 - $70,000 /year"
     }
 ]

@@ -4,7 +4,6 @@ import { AppliedJobsContext } from '../RootLayout/RootLayout';
 
 const AppliedJobs = () => {
     const { details } = useContext(AppliedJobsContext);
-    console.log(typeof details, details)
 
     return (
         <div className='py-10'>

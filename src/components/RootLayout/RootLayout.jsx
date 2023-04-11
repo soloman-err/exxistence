@@ -15,7 +15,6 @@ const RootLayout = () => {
     }
 
     const handleDelete = (id) => {
-        console.log(id);
         const newJobs = details.filter((jobs) => jobs.id !== id);
         setDetails(newJobs);
     }
