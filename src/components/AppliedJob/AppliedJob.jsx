@@ -3,19 +3,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
+import { HandleDetailContext } from '../RootLayout/RootLayout';
 
 const AppliedJob = ({ job }) => {
     const { id, image, location, salary, subtitle, time, title, type } = job;
 
-    const handleDelete = (id) => {
-        console.log(id)
-    }
+    // const handleDelete = (id) => {
+    //     console.log(id)
+    // }
+    const { handleDelete } = useContext(HandleDetailContext)
 
     return (
-        <div className='flex justify-between items-center p-3 md:p-5 bg-slate-100 md:w-[80%] lg:w-[60%] mx-auto border border-black shadow-md'>
+        <div className='flex justify-between items-center p-3 md:p-5 md:w-[80%] lg:w-[60%] mx-auto border border-black shadow-lg'>
             <div className='md:flex items-center gap-5'>
                 <img className='w-20 h-6 md:w-24 md:h-8' src={image} alt="" />
-                <div className='space-y-2'>
+                <div className='space-y-1'>
                     <h1 className='font-extrabold'>{title}</h1>
                     <small>{subtitle}</small>
                     <div className='flex gap-3 text-sm'>

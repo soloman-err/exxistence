@@ -8,7 +8,7 @@ import { HandleDetailContext } from '../RootLayout/RootLayout';
 const FeaturedJob = ({ featuredjob }) => {
     const { id, image, location, salary, subtitle, time, title, type } = featuredjob;
 
-    const handleDetail = useContext(HandleDetailContext);
+    const { handleDetail } = useContext(HandleDetailContext);
 
     return (
         <div

@@ -1,11 +1,8 @@
 import React, { useContext } from 'react';
 import AppliedJob from '../AppliedJob/AppliedJob';
-// import { HandleDetailContext } from '../RootLayout/RootLayout';
 import { AppliedJobsContext } from '../RootLayout/RootLayout';
 
 const AppliedJobs = () => {
-    // const { details, setDetails } = useContext(HandleDetailContext);
-    // console.log(details)
     const { details } = useContext(AppliedJobsContext);
     console.log(typeof details, details)
 
