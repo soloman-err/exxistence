@@ -3,13 +3,13 @@ import { Outlet } from 'react-router-dom';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
-export const HandleDetailContext = createContext();
+export const HandleApplyContext = createContext();
 export const AppliedJobsContext = createContext();
 
 const RootLayout = () => {
     const [details, setDetails] = useState([]);
 
-    const handleDetail = (detail) => {
+    const handleApply = (detail) => {
         const newDetails = [...details, detail]
         setDetails(newDetails);
     }
@@ -22,13 +22,13 @@ const RootLayout = () => {
     return (
         <div className='font-poppins'>
             <AppliedJobsContext.Provider value={{ details, setDetails, handleDelete }}>
-                <HandleDetailContext.Provider value={{ handleDetail, handleDelete }}>
+                <HandleApplyContext.Provider value={{ handleApply, handleDelete }}>
                     <Navbar></Navbar>
                     <div className='min-h-[calc(100vh-100px)] w-[80%] mx-auto '>
                         <Outlet></Outlet>
                     </div>
                     <Footer></Footer>
-                </HandleDetailContext.Provider>
+                </HandleApplyContext.Provider>
             </AppliedJobsContext.Provider>
         </div>
     );

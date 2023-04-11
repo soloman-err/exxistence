@@ -3,12 +3,10 @@ import { faMapLocation, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
-import { HandleDetailContext } from '../RootLayout/RootLayout';
 
 const FeaturedJob = ({ featuredjob }) => {
     const { id, image, location, salary, subtitle, time, title, type } = featuredjob;
 
-    const { handleDetail } = useContext(HandleDetailContext);
 
     return (
         <div
@@ -37,7 +35,7 @@ const FeaturedJob = ({ featuredjob }) => {
                 </div>
             </div>
             <div>
-                <Link to='/job-details'><Button onClick={() => handleDetail(featuredjob)}>View Details</Button></Link>
+                <Link to='/job-details'><Button>View Details</Button></Link>
             </div>
         </div >
     );

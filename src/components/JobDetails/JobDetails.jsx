@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
 import Button from '../Button/Button';
+import { HandleApplyContext } from '../RootLayout/RootLayout';
 
 
 const JobDetails = () => {
+    const { handleApply } = useContext(HandleApplyContext);
 
     return (
         <div className='md:flex justify-between space-y-5 md:space-y-0 md:w-[80%] mx-auto bg-slate-100 border border-slate-500 p-5 mt-[10%]'>
@@ -30,9 +32,9 @@ const JobDetails = () => {
                         </div>
                     </div>
                 </div>
-                <Button>Apply Now</Button>
+                <Button onClick={() => handleApply(featuredjob)}>Apply Now</Button>
             </div>
-        </div>
+        </div >
     );
 };
 

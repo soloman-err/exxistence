@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button';
-import { HandleDetailContext } from '../RootLayout/RootLayout';
+import { HandleApplyContext } from '../RootLayout/RootLayout';
 
 const AppliedJob = ({ job }) => {
     const { id, image, location, salary, subtitle, time, title, type } = job;
 
-    const { handleDelete } = useContext(HandleDetailContext)
+    const { handleDelete } = useContext(HandleApplyContext)
 
     return (
         <div className='flex justify-between items-center p-3 md:p-5 md:w-[80%] lg:w-[60%] mx-auto border border-black shadow-lg'>
