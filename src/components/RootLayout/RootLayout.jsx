@@ -1,5 +1,7 @@
 import React, { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom';
+import Swal from 'sweetalert2';
+import { addToDb, getAppliedBin, removeFromDb } from '../../utilities/Database';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -9,23 +11,32 @@ const RootLayout = () => {
     const [details, setDetails] = useState([]);
     const [jobDetail, setJobDetail] = useState([]);
 
-    const handleApply = (detail) => {
-        const newDetails = [...details, detail]
-        setDetails(newDetails);
-        // if (newDetails) {
-        //     Swal.fire({
-        //         position: 'top-end',
-        //         icon: 'success',
-        //         title: 'Your work has been saved',
-        //         showConfirmButton: false,
-        //         timer: 1500
-        //     })
-        // }
+    const handleApply = (id, detail) => {
+        if (!details.includes(detail)) {
+            const newDetails = [...details, detail]
+            setDetails(newDetails);
+            addToDb(id);
+            Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: "You Applied for this job!",
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }
+        else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: "You've already applied!",
+            })
+        }
     }
 
     const handleDelete = (id) => {
         const newJobs = details.filter((jobs) => jobs.id !== id);
         setDetails(newJobs);
+        removeFromDb(id);
     }
 
     const handleDetail = (job) => {

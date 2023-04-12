@@ -4,7 +4,8 @@ import { AppliedJobsContext } from '../RootLayout/RootLayout';
 
 const AppliedJobs = () => {
     const { details } = useContext(AppliedJobsContext);
-    console.log(details);
+    const storedApply = localStorage.getItem('applied-bin');
+    console.log(storedApply)
 
     return (
         <div className='py-10'>

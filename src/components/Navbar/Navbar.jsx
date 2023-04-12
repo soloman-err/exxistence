@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className='w-[80%] mx-auto flex flex-row-reverse md:flex-row justify-between lg:text-lg uppercase py-5 items-center border-b pb-3'>
             <Link to='/'><h1 className='text-2xl font-extrabold'>Exxistence</h1></Link>
 
-            <ul className={`absolute z-10 flex flex-col md:flex-row ${open ? 'top-16 left-[10%] bg-white border-t space-y-3 md:space-y-0 pr-3 pb-5' : 'top-16 -left-36'} duration-300 md:static md:space-x-3 text-sm font-extrabold`}>
+            <ul className={`absolute z-10 flex flex-col md:flex-row ${open ? 'top-16 left-[10%] bg-white border-t space-y-3 md:space-y-0 pr-3 pb-10 pt-2 ' : 'top-16 -left-36'} duration-300 md:static md:space-x-3 text-sm font-extrabold`}>
                 <Link to='/'>Home</Link>
                 <Link to='/statistics'>Statistics</Link>
                 <Link to='/applied-jobs'>Applied Jobs</Link>

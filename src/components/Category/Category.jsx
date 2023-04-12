@@ -1,11 +1,23 @@
+import { Player } from '@lottiefiles/react-lottie-player';
 import React, { useEffect, useState } from 'react';
 
 const Category = () => {
     const [categories, setCategories] = useState([]);
     useEffect(() => {
-        fetch('categories.json')
-            .then((res) => res.json())
-            .then((data) => setCategories(data))
+        try {
+            fetch('categories.json')
+                .then((res) => res.json())
+                .then((data) => setCategories(data))
+        }
+        catch (error) {
+            <Player
+                autoplay
+                loop
+                src="https://assets9.lottiefiles.com/private_files/lf30_hdjv06hi.json"
+                className='pt-[50%] md:pt-[10%] lg:w-[50%] mx-auto'
+            >
+            </Player>
+        }
     })
     return (
         <div className='text-center pt-10 space-y-5'>

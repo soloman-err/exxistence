@@ -1,5 +1,5 @@
 [
-    {
+  {
       "id": 1,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG6SttCc_-5YWCMd9XHxkoz6GbDUHH7j0sw0_DfNMxZIFvbxjalejuxgNlo1hnj8HZmA&usqp=CAU",
       "title": "UX Designer",
@@ -7,8 +7,13 @@
       "type": "Onsite",
       "time": "Full Time",
       "location": "San Francisco, CA",
-      "salary": "$100,000 - $120,000 /year"
-      
+      "salary": "$100,000 - $120,000 /year",
+      "phone": "555-555-1234",
+      "email": "example@example.com",
+      "desc": "As a UX Designer, you will be responsible for creating compelling and intuitive user experiences across a range of digital products.",
+      "responsibility": "Design and develop user interfaces, wireframes, and prototypes. Conduct user research and analyze user feedback to improve designs.",
+      "requirements": "Bachelor's or Master's degree in UX Design, Human-Computer Interaction, or a related field.",
+      "experiences": "2+ years of experience in UX design, proficiency in design tools such as Sketch or Figma, strong communication skills."
     },
     {
       "id": 2,
@@ -18,7 +23,13 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Mountain View, CA",
-      "salary": "$120,000 - $150,000 /year"
+      "salary": "$120,000 - $150,000 /year",
+      "phone": "555-555-1234",
+      "email": "example@example.com",
+      "desc": "As a Software Engineer at SpaceX, you will be responsible for developing and maintaining software applications for spaceflight and rocket technology.",
+      "responsibility": "Design, develop, test, and maintain software applications. Collaborate with cross-functional teams to identify and prioritize features.",
+      "requirements": "Bachelor's or Master's degree in Computer Science or a related field.",
+      "experiences": "3+ years of experience in software development, proficiency in programming languages such as C++, Python, or Java, experience with software development tools and technologies such as Git, Jira, or Docker."
     },
     {
       "id": 3,
@@ -28,7 +39,13 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Cupertino, CA",
-      "salary": "$110,000 - $130,000 /year"
+      "salary": "$110,000 - $130,000 /year",
+      "phone": "555-555-1234",
+      "email": "example@example.com",
+      "desc": "As a Technical Writer at the NY Times, you will be responsible for creating and editing technical documentation for internal and external audiences.",
+      "responsibility": "Write and edit technical documentation, including user manuals, API documentation, and developer guides.",
+      "requirements": "Bachelor's or Master's degree in Technical Writing, Journalism, or a related field.",
+      "experiences": "5+ years of experience in technical writing, excellent writing and editing skills, experience with content management systems and authoring tools."
     },
     {
       "id": 4,
@@ -38,7 +55,13 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Seattle, WA",
-      "salary": "$45,000 - $50,000 /year"
+      "salary": "$45,000 - $50,000 /year",
+      "phone": "555-555-5555",
+      "email": "csrep@starbucks.com",
+      "desc": "The Customer Service Representative is responsible for providing exceptional customer service to all customers of the Starbucks Corporation.",
+      "responsibility": "Respond to customer inquiries via phone, email, and social media. Resolve customer complaints and issues in a timely and professional manner.",
+      "requirements": "High school diploma or equivalent; some college preferred",
+      "experiences": "1-2 years of customer service experience preferred"
     },
     {
       "id": 5,
@@ -48,7 +71,13 @@
       "type": "Onsite",
       "time": "Full Time",
       "location": "Redmond, WA",
-      "salary": "$80,000 - $100,000 /year"
+      "salary": "$80,000 - $100,000 /year",
+      "phone": "555-555-5555",
+      "email": "dataanalyst@motogp.com",
+      "desc": "The Data Analyst is responsible for collecting, processing and performing statistical analyses on large datasets. They are also responsible for presenting findings to management in a clear and concise manner.",
+      "job-responsibility": "Analyze MotoGP data to identify trends and insights, create reports and presentations to communicate findings to management and stakeholders.",
+      "requirements": "Bachelor's degree in Statistics, Mathematics, Computer Science or related field",
+      "experiences": "2-4 years of experience in data analysis or related field"
     },
     {
       "id": 6,
@@ -58,7 +87,13 @@
       "type": "Onsite",
       "time": "Full Time",
       "location": "Menlo Park, CA",
-      "salary": "$150,000 - $180,000 /year"
+      "salary": "$150,000 - $180,000 /year",
+      "phone": "(555) 123-4567",
+      "email": "jobs@facebook.com",
+      "job_description": "As a full stack developer at Facebook, you will be responsible for developing and maintaining software for our products and services.",
+      "job-responsibility": "Develop and maintain web applications for Facebook, work with other developers and product managers to design and implement features.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software development"
     },
     {
       "id": 7,
@@ -68,7 +103,12 @@
       "type": "Onsite",
       "time": "Part Time",
       "location": "San Francisco, CA",
-      "salary": "$120,000 - $140,000 /year"
+      "salary": "$120,000 - $140,000 /year",
+      "phone": "(555) 123-4567",
+      "email": "jobs@cyberpunk2077.com",
+      "job_description": "As a backend developer at Cyberpunk2077, you will be responsible for designing and implementing server-side logic for our online game.",
+      "educational_requirements": "Bachelor's or Master's degree in Computer Science or related field",
+      "experiences": "5+ years of experience in software development"
     },
     {
       "id": 8,
@@ -78,7 +118,13 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Santa Clara, CA",
-      "salary": "$80,000 - $100,000 /year"
+      "salary": "$80,000 - $100,000 /year",
+      "phone": "XXX-XXX-XXXX",
+      "email": "animator@waltdisney.com",
+      "desc": "Create and design animation sequences using various techniques and software. Collaborate with writers, artists, and other team members to bring characters and stories to life.",
+      "job-responsibility": "Develop and maintain backend systems for Cyberpunk 2077, work with other developers and designers to ensure the game runs smoothly and efficiently.",
+      "requirements": "Bachelor's degree in animation or a related field",
+      "experiences": "Minimum of 3 years of experience in animation or a related field"
     },
     {
       "id": 9,
@@ -88,7 +134,13 @@
       "type": "remote",
       "time": "Project",
       "location": "San Jose, CA",
-      "salary": "$110,000 - $130,000 /year"
+      "salary": "$110,000 - $130,000 /year",
+      "phone": "XXX-XXX-XXXX",
+      "email": "networkengineer@ibm.com",
+      "desc": "Design, implement, and maintain computer networks for organizations. Troubleshoot network issues and perform upgrades as necessary.",
+      "responsibility": "Design and implement computer networks and related systems, including routers, switches, firewalls, and security protocols.",
+      "requirements": "Bachelor's degree in computer science or a related field",
+      "experiences": "Minimum of 5 years of experience in network engineering or a related field"
     },
     {
       "id": 10,
@@ -98,6 +150,12 @@
       "type": "remote",
       "time": "Full Time",
       "location": "Sunnyvale, CA",
-      "salary": "$60,000 - $70,000 /year"
-    }
+      "salary": "$60,000 - $70,000 /year",
+      "phone": "XXX-XXX-XXXX",
+      "email": "marketingcoordinator@nestle.com",
+      "desc": "Assist with the development and implementation of marketing campaigns. Coordinate with internal and external teams to ensure projects are completed on time and within budget.",
+      "responsibility": "Develop and execute marketing campaigns to promote Nestle's products and services. Analyze and report on campaign performance and adjust strategies as needed.",
+      "requirements": "Bachelor's degree in marketing or a related field",
+      "experiences": "Minimum of 2 years of experience in marketing or a related field"
+    }   
 ]
