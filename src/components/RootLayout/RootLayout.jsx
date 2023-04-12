@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import { addToDb, getAppliedBin, removeFromDb } from '../../utilities/Database';
+import { removeFromDb } from '../../utilities/Database';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -11,11 +11,17 @@ const RootLayout = () => {
     const [details, setDetails] = useState([]);
     const [jobDetail, setJobDetail] = useState([]);
 
+    // Handling Apply-Job button:
     const handleApply = (id, detail) => {
         if (!details.includes(detail)) {
             const newDetails = [...details, detail]
             setDetails(newDetails);
-            addToDb(id);
+
+            // Adding applied-jobs data to local-storage:
+            const applied = JSON.parse(localStorage.getItem('applied-bin')) || [];
+            applied.push(detail);
+            localStorage.setItem('applied-bin', JSON.stringify(applied));
+
             Swal.fire({
                 position: 'center',
                 icon: 'success',
@@ -33,12 +39,14 @@ const RootLayout = () => {
         }
     }
 
+    // Handling Delete Applied-Job button:
     const handleDelete = (id) => {
         const newJobs = details.filter((jobs) => jobs.id !== id);
         setDetails(newJobs);
         removeFromDb(id);
     }
 
+    // Handling viewing Job-Details:
     const handleDetail = (job) => {
         setJobDetail(job);
     }

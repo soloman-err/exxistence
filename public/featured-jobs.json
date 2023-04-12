@@ -107,6 +107,7 @@
       "phone": "(555) 123-4567",
       "email": "jobs@cyberpunk2077.com",
       "desc": "As a backend developer at Cyberpunk2077, you will be responsible for designing and implementing server-side logic for our online game.",
+      "responsibility": "Designing and implementing server-side logic for the online game.",
       "requirements": "Bachelor's or Master's degree in Computer Science or related field",
       "experiences": "5+ years of experience in software development"
     },

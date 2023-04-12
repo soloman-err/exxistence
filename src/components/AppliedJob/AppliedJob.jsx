@@ -7,7 +7,6 @@ import { AppliedJobsContext } from '../RootLayout/RootLayout';
 
 const AppliedJob = ({ job }) => {
     const { id, image, location, salary, subtitle, time, title, type } = job;
-    // console.log(id)
 
     const { handleDelete } = useContext(AppliedJobsContext)
 
@@ -29,8 +28,8 @@ const AppliedJob = ({ job }) => {
                 </div>
             </div>
             <div className='flex gap-3 items-center'>
-                <Link to='/job-details' className='text-sm'>
-                    <Button>View Details</Button>
+                <Link to='/job-details' className='text-xs'>
+                    <Button className>View Details</Button>
                 </Link>
                 <FontAwesomeIcon onClick={() => handleDelete(id)} icon={faTrashCan} />
             </div>

@@ -20,7 +20,7 @@ const Featured = () => {
     const buttonText = showAll ? 'Show Less' : 'Show All Jobs';
 
     return (
-        <div className='text-center space-y-3 pt-10'>
+        <div className='text-center space-y-8 pt-10'>
             <div className='border-b inline'>
                 <h1 className='font-extrabold text-xl lg:text-2xl'>Featured Jobs</h1>
                 <small className='text-xs text-slate-600'>International Tech-Giant companies at a glance</small>
