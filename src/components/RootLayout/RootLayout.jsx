@@ -17,10 +17,22 @@ const RootLayout = () => {
             const newDetails = [...details, detail]
             setDetails(newDetails);
 
-            // Adding applied-jobs data to local-storage:
-            const applied = JSON.parse(localStorage.getItem('applied-bin')) || [];
-            applied.push(detail);
-            localStorage.setItem('applied-bin', JSON.stringify(applied));
+            const applyJob = (id) => {
+                const applied = JSON.parse(localStorage.getItem("applied-jobs")) || [];
+                const alreadyApplied = applied.find((job) => job == id);
+
+                if (!alreadyApplied) {
+                    applied.push(id);
+                    localStorage.setItem("applied-jobs", JSON.stringify(applied));
+
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+            applyJob(id);
+
 
             Swal.fire({
                 position: 'center',

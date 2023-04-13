@@ -5,8 +5,8 @@ import { AppliedJobsContext } from '../RootLayout/RootLayout';
 const AppliedJobs = () => {
     const { details } = useContext(AppliedJobsContext);
 
-    const applied = JSON.parse(localStorage.getItem('applied-bin'));
-    console.log(applied);
+    // const applied = JSON.parse(localStorage.getItem('applied-bin'));
+    // console.log(applied);
 
     return (
         <div className='py-10'>

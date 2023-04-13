@@ -1,1 +1,40 @@
-visit: https://exxistence.netlify.app
+Visit: https://exxistence.netlify.app
+
+============>>>> About This Project: <<<<=============
+
+#. A Minimal Looking Job-Hunting website for searching the suitable job of anyone.#
+
+### Technologies:
+1. HTML5
+2. TAILWIND
+3. REACT-JS
+
+
+### Functionalities:
+1. Surfing Featured Jobs & view more about each jobs by clicking on 'View Details' button.
+
+2. 'View Details' will redirect you in specific job-description page for which you clicked & show the next criteria's which will need to full-full to apply for the Job.
+
+3. After clicking on 'Apply Now' button you'll see an initial confirmation that, "You've applied for this job" & then your applied job will stored in the 'Applied Jobs' page. You'll see each jobs respectively those you applied.
+
+4. Depending on your need, you can further modify your job list by adding or deleting them on 'Applied Jobs' page.
+
+
+### Statistics:
+=> There have a statistics page where you will see the basic analytics of this site. The analytics module or dashboard will show you,
+1. Job availability.
+2. Area-wise Job.
+3. Job campaign events.
+4. Previous years analytics.
+5. Other Info.
+
+[NOTE: I've initially applied my 'Assignment Marks' in the Statistics page.]
+
+### Blog:
+=> Related to Job-Hunting criteria, There have a Blog page implemented in this site. Where, you'll see related Topic, Articles & Information.
+
+[NOTE: I've added some QnA/FAQ in this page, related to REACT-JS]
+
+
+________________________________________________
+You've read an Outline of my project ©Exxistence.
