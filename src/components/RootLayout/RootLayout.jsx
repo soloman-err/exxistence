@@ -1,7 +1,7 @@
 import React, { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import { removeFromDb } from '../../utilities/Database';
+import { addToDb, removeFromDb } from '../../utilities/Database';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 
@@ -10,28 +10,21 @@ export const AppliedJobsContext = createContext();
 const RootLayout = () => {
     const [details, setDetails] = useState([]);
     const [jobDetail, setJobDetail] = useState([]);
+    // console.log(details);
 
     // Handling Apply-Job button:
-    const handleApply = (id, detail) => {
-        if (!details.includes(detail)) {
-            const newDetails = [...details, detail]
+    const handleApply = (id, jobDetail) => {
+        if (!details.includes(id)) {
+            const newDetails = [...details, id]
             setDetails(newDetails);
 
-            const applyJob = (id) => {
-                const applied = JSON.parse(localStorage.getItem("applied-jobs")) || [];
-                const alreadyApplied = applied.find((job) => job == id);
+            addToDb(id, jobDetail);
 
-                if (!alreadyApplied) {
-                    applied.push(id);
-                    localStorage.setItem("applied-jobs", JSON.stringify(applied));
 
-                    return true;
-                }
-                else {
-                    return false;
-                }
-            }
-            applyJob(id);
+            // const applyJob = (id) => {
+
+            // }
+            // applyJob(id);
 
 
             Swal.fire({

@@ -1,6 +1,6 @@
 // Functionalities to manage database..
 
-const addToDb = detail => {
+const addToDb = (id, jobDetail) => {
     // let appliedBin = getAppliedBin();
 
     // // const quantity = appliedBin[id];
@@ -13,13 +13,26 @@ const addToDb = detail => {
     // }
 
     
-    let appliedBin = getAppliedBin();
+    // let appliedBin = getAppliedBin();
     
-    const exist = appliedBin[detail]
-    if (!exist) {
-        appliedBin = detail;
+    // const exist = appliedBin[detail]
+    // if (!exist) {
+    //     appliedBin = detail;
+    // }
+    // localStorage.setItem('applied-bin', JSON.stringify(appliedBin));
+
+    const applied = JSON.parse(localStorage.getItem("applied-jobs")) || [];
+    const alreadyApplied = applied.find((job) => job === id);
+
+    if (!alreadyApplied) {
+        applied.push(jobDetail);
+        localStorage.setItem("applied-jobs", JSON.stringify(applied));
+
+        return true;
     }
-    localStorage.setItem('applied-bin', JSON.stringify(appliedBin));
+    else {
+        return false;
+    }
 }
 
 const removeFromDb = id => {
@@ -44,6 +57,21 @@ const getAppliedBin = () => {
 const deleteAppliedBin = () => {
     localStorage.removeItem('applied-bin');
 }
+
+// Database management:
+// const addToDb = (id) => {
+//     const applied = JSON.parse(localStorage.getItem("applied-jobs")) || [];
+//     console.log(applied);
+//     const alreadyApplied = applied.find((job) => job === id);
+//     if (!alreadyApplied) {
+//         applied.push(id);
+//         localStorage.setItem("applied-jobs", JSON.stringify(applied));
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
 
 export {
     addToDb,

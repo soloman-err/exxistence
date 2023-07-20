@@ -1,19 +1,28 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
+import { addToDb } from '../../utilities/Database';
 import AppliedJob from '../AppliedJob/AppliedJob';
 import { AppliedJobsContext } from '../RootLayout/RootLayout';
 
 const AppliedJobs = () => {
-    const { details } = useContext(AppliedJobsContext);
 
-    // const applied = JSON.parse(localStorage.getItem('applied-bin'));
-    // console.log(applied);
+    const appliedJobs = JSON.parse(localStorage.getItem("applied-jobs"));
+
+    // Filter Jobs:
+    const [filtered, setFiltered] = useState('');
+
+    const handleFiltered = (event) => {
+        setFiltered(event.target.value);
+    }
+
+    const filteredJobs = filtered ? appliedJobs.filter((job) => job.type === filtered) : appliedJobs;
+    console.log(filteredJobs);
 
     return (
-        <div className='py-10'>
-            <h1 className='text-center text-xl lg:text-2xl uppercase underline'>Your Applied Jobs</h1>
-            <div className='flex justify-center py-5'>
-                <select className='px-3 border-2 border-black'>
-                    <option value="">Filter By</option>
+        <div className=''>
+            <h1 className='text-center md:text-xl font-extrabold lg:text-2xl uppercase underline bg-slate-50 py-10'>Your Applied Jobs</h1>
+            <div className='flex justify-center pt-5'>
+                <select onChange={handleFiltered} className='px-3 border-2 border-black'>
+                    <option>Filter By</option>
                     <option value="onsite">Onsite</option>
                     <option value="remote">Remote</option>
                 </select>
@@ -21,7 +30,7 @@ const AppliedJobs = () => {
 
             <div className='space-y-3 py-5'>
                 {
-                    details.map((job) =>
+                    filteredJobs?.map((job) =>
                         <AppliedJob
                             key={job.id}
                             job={job}

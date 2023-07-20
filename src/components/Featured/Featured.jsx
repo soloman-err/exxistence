@@ -1,5 +1,4 @@
 import React, { createContext, useEffect, useState } from 'react';
-import Button from '../Button/Button';
 import FeaturedJob from '../FeaturedJob/FeaturedJob';
 
 const Featured = () => {

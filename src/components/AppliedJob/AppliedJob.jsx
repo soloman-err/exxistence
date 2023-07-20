@@ -7,8 +7,18 @@ import { AppliedJobsContext } from '../RootLayout/RootLayout';
 
 const AppliedJob = ({ job }) => {
     const { id, image, location, salary, subtitle, time, title, type } = job;
+    // console.log(job);
+
+    // const loadedJobs = fetch('featured-jobs.json').then((res) => res.json());
+    // console.log(loadedJobs);
+    // const savedJobs = JSON.parse(localStorage.getItem("applied-jobs")) || [];
+    // const appliedJobs = loadedJobs.filter((aJob) => savedJobs.find((savedJob) => savedJob === aJob.id));
+    // console.log(appliedJobs);
 
     const { handleDelete } = useContext(AppliedJobsContext)
+
+    // const applied = JSON.parse(localStorage.getItem("applied-jobs")) || [];
+    // console.log(applied);
 
     return (
         <div className='flex justify-between items-center p-3 md:p-5 md:w-[80%] lg:w-[60%] mx-auto border border-black shadow-lg'>
